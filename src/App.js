@@ -1,11 +1,20 @@
 import React from "react";
-import "./style.css";
+import NewsBlock from "./components/NewsBlock.js";
+import SearchBlock from "./components/SearchBlock.js";
+import WidgetsBlock from "./components/WidgetsBlock.js";
+import "./App.css";
 
-export default function App() {
+/**
+ * Вывод главной страницы
+ *
+ */
+
+ export default function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+    <div className="App">
+      <NewsBlock />
+      <SearchBlock />
+      <WidgetsBlock />
     </div>
   );
 }

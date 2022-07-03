@@ -1,0 +1,128 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+    width: 800px;
+}
+
+.NewsBlock {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 100px;
+  padding: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.NewsBlockSelector {
+  font-size: small;  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.NewsBlockList {
+  margin-top: 10px;
+  padding: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.NewsBlockAd {
+  margin-left: 10px;
+  height: 140px;
+  padding: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.SearchBlock {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.SearchBlockSelector {
+  font-size: small;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 10px;
+  text-align: center;
+  margin-left: 80px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.SearchBlockExecutor {
+  margin-top: 10px;
+  padding: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.SearchBlockExecutorInput {
+  font-size: 1.3em;
+  color: brown;
+  height: 30px;
+  display: grid;
+  grid-template-columns: 1fr 9fr 1fr;
+}
+
+.SearchBlockExecutorSubtitle {
+  margin-left: 80px;
+}
+
+.SearchBlockAd {
+  height: 50px;
+  margin-left: 80px;
+  margin-top: 10px;
+  padding: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.WidgetsBlock {
+  column-count: 3;
+  margin-top: 10px;
+  margin-left: 100px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.Widget {
+  display:inline-block;  
+  font-size: small;
+  width: 180px;
+  margin: 10px;
+  padding: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
